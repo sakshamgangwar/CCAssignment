@@ -10,6 +10,13 @@ public class Solution09 {
 		System.out.println(checkIfStringRotation("waterbottle", "rrbottlewat"));
 	}
 
+	/**
+	 * 
+	 * 
+	 * @param s1
+	 * @param s2
+	 * @return boolean
+	 */
 	private static boolean checkIfStringRotation(String s1, String s2) {
 		/**
 		 * If both the strings are of equal length then only we should go ahead
