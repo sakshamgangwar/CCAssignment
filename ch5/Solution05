@@ -1,0 +1,19 @@
+Debugger:
+(n&(n-1))==0
+
+This condition is used to check if the number 'n' consists of only one 1 bit set in the number. That 1 bit can be anywhere in the binary representation.
+If there is n with more than one bits as 1, then n & (n-1) will never be zero.
+
+e.g. n = 1100
+
+n-1 = 1011
+
+n & (n-1) = 1000 != 0
+
+if n = 100
+
+n-1 = 011
+
+n & (n-1) = 0
+
+So n should be of some power of 2 (or zero) in order to hold this condition.
